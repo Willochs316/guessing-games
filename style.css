@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+  justify-content: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Verdana,sans-serif,Geneva;
+    color: #181717;
+    font-weight: 300;
+  padding: 0 0 20px 0;
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 1.25rem;
+    border-radius: 0;
+}
+
+.header_title{
+  width: 100%;
+background-color: #d8e5ee;
+text-align: top;
+}
+
+.username_button{
+  background-color: #2B90E1;
+  border: 0;
+    outline: 0;
+  padding: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#submitguess{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+    border: 0.5 solid #d8e5ee;
+    outline: 0;
+    background-color: #2B90E1;
+    cursor: pointer;
+}

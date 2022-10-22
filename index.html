@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <div class='container'>
+    <h1 class='header_title'>Guess The Number</h1>
+
+  <p>Click the button below to add username.</p>
+
+  <button onclick="myFunction()" class='username_button'>Username</button>
+
+  <p id="user"></p>
+
+  <p>We have selected a random number between 1 - 2.
+    See if you can guess it.</p>
+
+  <div class="form">
+    <label for="guessField">Enter a guess: </label>
+    <input type="text" id="guessField" class="guessField">
+    <input type="submit" value="Submit guess" class="guessSubmit" id="submitguess">
+  </div>
+ </div>
+
+  <script src="script.js">
+
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+
+</html>
