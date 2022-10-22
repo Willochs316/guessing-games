@@ -1,6 +1,4 @@
 html, body {
-  height: 100%;
-  width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -18,9 +16,10 @@ html, body {
     font-family: Verdana,sans-serif,Geneva;
     color: #181717;
     font-weight: 300;
+  margin: 0 auto;
   padding: 0 0 20px 0;
     position: relative;
-    min-width: 0;
+    width: 700px;
     word-wrap: break-word;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
@@ -50,4 +49,14 @@ text-align: top;
     outline: 0;
     background-color: #2B90E1;
     cursor: pointer;
+}
+
+@media screen and (min-width: 375px) {
+  
+ .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 375;
+ }
 }
